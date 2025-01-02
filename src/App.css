@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile_container{
+  position:relative;
+  width: 100vw;
+  height: 40vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.profile_photo_container{
+  position:relative;
+  width: 20%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile_photo{
+  width: 316px;
+  height: 288px;
+  padding: 30px;
+  left: 20px;
+  top: 20px;
+}
+
+.profile_text_container{
+  position:relative;
+  width: 80%;
+  height: 100%;
+  padding-left: 30px;
+}
+
+.profile_text_name{
+  font-family: "Gothic A1", serif;
+  font-weight: 400;
+  font-style: normal;
 }
