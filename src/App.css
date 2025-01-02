@@ -1,6 +1,6 @@
 .profile_container{ position:relative; width: 100vw; height: 40vh; display: flex; align-items: center; justify-content: space-between; }
 .profile_photo_container{ position:relative; width: 20%; height: 100%; }
-.profile_photo{ width: 316px; height: 288px; padding: 30px; left: 20px; top: 20px; }
+.profile_photo{ width: 216px; height: 288px; padding: 30px; align-items: center; }
 
 /* profile_text */
 .profile_text_container{ position:relative; width: 80%; height: 100%; display: flex; flex-direction: column; margin-top: 30px;}
@@ -10,12 +10,12 @@
 .profile_text_address_container{ position: relative; width: 50%; height:25%;}
 .profile_text_career_container{ position:relative; width: 100%; height:25%; }
 
-.profile_text_name_kr{
+.profile_text_name_kr, .profile_text_brith_container > h1, .profile_text_brith_container > h2
+, .profile_text_address_container > h1, .profile_text_address_container > h2, .profile_text_career_container > h1, .profile_text_career_container > h2{
   position: relative;
   font-family: "Gothic A1", serif;
   font-weight: 600;
   font-style: normal;
-  text-align: center;
 }
 
 .profile_text_name_en{
@@ -25,5 +25,5 @@
   font-weight: 600;
   font-style: normal;
   font-variation-settings:"wdth" 100;
-  text-align: center;
+  font-size: 30px;
 }
