@@ -1,35 +1,22 @@
-.profile_container{
-  position:relative;
-  width: 100vw;
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.profile_photo_container{
-  position:relative;
-  width: 20%;
-  height: 100%;
-}
-
-.profile_photo{
-  width: 316px;
-  height: 288px;
-  padding: 30px;
-  left: 20px;
-  top: 20px;
-}
-
-.profile_text_container{
-  position:relative;
-  width: 80%;
-  height: 100%;
-  padding-left: 30px;
-}
-
-.profile_text_name{
+.profile_container{ position:relative; width: 100vw; height: 40vh; display: flex; align-items: center; justify-content: space-between; }
+.profile_photo_container{ position:relative; width: 20%; height: 100%; }
+.profile_photo{ width: 316px; height: 288px; padding: 30px; left: 20px; top: 20px; }
+.profile_text_container{ position:relative; width: 80%; height: 100%; padding-left: 30px; }
+.profile_text_name_container{ position: relative; display: flex; align-items: center; }
+.profile_text_name_kr{
+  position: relative;
   font-family: "Gothic A1", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+  text-align: center;
+}
+
+.profile_text_name_en{
+  position: relative;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  text-align: center;
 }

@@ -9,7 +9,10 @@ function App() {
         <img className="profile_photo" src={photo}></img>
       </div>
       <div className='profile_text_container'>
-        <h1 className='profile_text_name'>김성식(Kim SungSik)</h1>
+        <div className='profile_text_name_container'>
+          <h1 className='profile_text_name_kr'>김성식</h1>
+          <h1 className='profile_text_name_en'>(Kim SungSik)</h1>
+        </div>
       </div>
     </div>
   );
