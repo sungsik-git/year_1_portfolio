@@ -1,0 +1,10 @@
+.navigator{
+    background-attachment: #333;
+    padding: 10px 0;
+    color: white;
+}
+
+.nav_button{
+    width: 100%;
+    text-align: center;
+}
